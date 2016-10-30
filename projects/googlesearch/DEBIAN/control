@@ -1,7 +1,7 @@
 Package: com.littleferris.googlesearch
 Name: GoogleSearch
 Depends:
-Version: 1.0
+Version: 1.0.1
 Architecture: iphoneos-arm
 Description: Search widget for xenHTML.
 Maintainer: littleferris <goobertime@gmail.com>

@@ -4,23 +4,23 @@ Architecture: iphoneos-arm
 Maintainer: littleferris <goobertime@gmail.com>
 Filename: ./debs/com.littleferris.blackpixelsearch_1.0.2_iphoneos-arm.deb
 Size: 118218
-MD5sum: 9936864818efda7e7fb1c165d9247695
-SHA1: da4bbd61726f58d60d9544a8555f94a341109e46
-SHA256: db9429c7bf76396e4e959edfb05dd6215ad5f6c9a10a2c4128f6aac56742b07e
+MD5sum: 4943b45c47d49e99594f2715ce5d1e36
+SHA1: 679d5ec83f7e1cb981a77c6c7823702dca3368d8
+SHA256: d1cbe22148eb39e061c26b723bf5b0224abc1f4512965bef9ea629d901383d47
 Section: Widgets(xenHTML)
 Description: Search widget for xenHTML. Requires xenHTML and InfoStats2
 Author: littleferris (littleferris) <goobertime@gmail.com>
 Name: BlackPixelSearch
 
 Package: com.littleferris.googlesearch
-Version: 1.0
+Version: 1.0.1
 Architecture: iphoneos-arm
 Maintainer: littleferris <goobertime@gmail.com>
-Filename: ./debs/com.littleferris.googlesearch_1.0_iphoneos-arm.deb
-Size: 20192
-MD5sum: 013d92efecf626463ff9d3deae1ff884
-SHA1: f06826d6fe912d39fb4f235040e1c1e066f6f0c0
-SHA256: 1c1ad14cf0526237e5f8a658e84d152e7a116887c05b60ce6511a9223e7672ae
+Filename: ./debs/com.littleferris.googlesearch_1.0.1_iphoneos-arm.deb
+Size: 20194
+MD5sum: 62ed28bc6bfa08152ee1544b4484c2a2
+SHA1: 81b79933f5c9398b2d0cf518fee5f4cfdbaaf918
+SHA256: a480cb79e8bd0ea9977bebd2695755bfd637d05df8f9e3cf003e69f952b9d9fc
 Section: Widgets(xenHTML)
 Description: Search widget for xenHTML.
 Author: littleferris (littleferris) <goobertime@gmail.com>
@@ -32,9 +32,9 @@ Architecture: iphoneos-arm
 Maintainer: littleferris <goobertime@gmail.com>
 Filename: ./debs/com.littleferris.pixelsearch_1.0.1_iphoneos-arm.deb
 Size: 117810
-MD5sum: 62f9ace0bc11ff59cc522bd83959802b
-SHA1: 52fc6d1e67b3a0b558def489197b40800d662c26
-SHA256: b6c596349c0233f38f340d362453ddce87349ab764ebecb61741bf82dd1aa6bd
+MD5sum: 167193280cfbc1cddf9cd04c2bec3a1f
+SHA1: 3793623626338647992aa95ae5d5f22ebc19a00c
+SHA256: 1b30c1b3d277b0d16a35a1720e34d4e9d093bcd0394e34cc6526e3c72f32c1b1
 Section: Widgets(xenHTML)
 Description: Search widget for xenHTML. Requires xenHTML and InfoStats2
 Author: littleferris (littleferris) <goobertime@gmail.com>
