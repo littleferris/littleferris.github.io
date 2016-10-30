@@ -1,10 +1,10 @@
-Package: com.merk.pixelsearch
+Package: com.littleferris.pixelsearch
 Name: PixelSearch
-Depends: com.matchstic.infostats2, com.matchstic.xenhtml
+Depends: com.matchstic.infostats2
 Version: 1.0
 Architecture: iphoneos-arm
-Description: Search widget for xenHTML.
-Maintainer: merk <goobertime@gmail.com>
+Description: Search widget for xenHTML. Requires xenHTML and InfoStats2
+Maintainer: littleferris <goobertime@gmail.com>
 Author: Jay Freeman (saurik) <saurik@saurik.com>
 Sponsor: Microsoft <http://www.microsoft.com/>
 Section: Themes (Springboard)
