@@ -34,5 +34,5 @@ var year = date.getFullYear();
 
 document.getElementById('monthname').innerHTML = monthname + " " + datey;
 document.getElementById('day').innerHTML = day  + "," + " " + year;
-
+//not working
 }
