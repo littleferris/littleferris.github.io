@@ -1,0 +1,16 @@
+Package: com.littleferris.pixelsearch
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: littleferris <goobertime@gmail.com>
+Depends: com.matchstic.infostats2
+Filename: ./debs/com.littleferris.pixelsearch_1.0_iphoneos-arm.deb
+Size: 119164
+MD5sum: bc1d573f4a7237898e40f8f0b8a200e0
+SHA1: e6bf07c6f9a5e08b26bef76142d2e9c64b068c72
+SHA256: 58a28b9f32f67a989fde92965f082d6b9b556dbb8777675e620c1f0202033731
+Section: Themes (Springboard)
+Description: Search widget for xenHTML. Requires xenHTML and InfoStats2
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Name: PixelSearch
+Sponsor: Microsoft <http://www.microsoft.com/>
+
