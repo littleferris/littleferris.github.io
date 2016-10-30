@@ -3,10 +3,10 @@ Version: 1.0
 Architecture: iphoneos-arm
 Maintainer: littleferris <goobertime@gmail.com>
 Filename: ./debs/com.littleferris.pixelsearch_1.0_iphoneos-arm.deb
-Size: 118220
-MD5sum: de7517f912f91ac113f796321ede0a81
-SHA1: 410efc379624f14a10c2262a63b9735339f77efa
-SHA256: dc94c07343d439afc438aad5ea9c1fba0a6a56b455cfa2f79dead6ec12d7f607
+Size: 118870
+MD5sum: b3be8eb18b86fedb99fff802fe30f408
+SHA1: e3e758efd3490fe92577dfa07327bb9aa1b0a155
+SHA256: dc8ce9f20674876f35fc4ecaf15632c5d7ee01c4f5bbeb9e1413e47205335592
 Section: Widgets(xenHTML)
 Description: Search widget for xenHTML. Requires xenHTML and InfoStats2
 Author: littleferris (merk) <goobertime@gmail.com>
