@@ -1,0 +1,106 @@
+<style>
+  body
+  {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    width: 300px;
+  }
+
+  input
+  {
+    background-image: url(google.png);
+    background-color: rgba(255, 255, 255, 0.4);
+    background-position: 8px 8px;
+    background-repeat: no-repeat;
+    background-size: 73px 26px;
+    border-radius: 0;
+    border-style: none;
+    box-shadow: none !important;
+    font-size: 16px;
+    height: 40px;
+    padding: 0 90px 0 10px;
+    width: 300px;
+  }
+
+  a
+  {
+    background-image: url(glass.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+    height: 40px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 50px;
+  }
+
+  div#erase
+  {
+    background-image: url(erase.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 16px 16px;
+    height: 40px;
+    right: 60px;
+    position: absolute;
+    top: 0;
+    visibility: hidden;
+    width: 30px;
+  }
+</style>
+<body>
+  <input id="input" onkeyup="on_keyup()" onfocus="on_focus()" onblur="on_blur()" type="text">
+  <a id="button" target="_blank" onclick="do_search()"></a>
+  <div id="erase" onclick="erase()"></div>
+</body>
+<script>
+  var input_elem = document.getElementById("input");
+  var erase_elem = document.getElementById("erase");
+
+  function do_search()
+  {
+    var query = input_elem.value;
+    query = encodeURIComponent(query);
+    erase();
+
+    var button_elem = document.getElementById("button");
+    button_elem.href = 
+    [[UIApplication sharedApplication] openURL:[NSURL URLWithString: @"https://www.google.com/search?q=" + query]];
+  }
+
+  function show_x() { erase_elem.style.visibility = "visible"; }
+  function hide_x() { erase_elem.style.visibility = "hidden"; }
+  function show_google() { input_elem.style.backgroundImage = "url(google.png)"; }
+  function hide_google() { input_elem.style.backgroundImage = "none"; }
+
+  function on_keyup()
+  {
+    show_x();
+    if (input_elem.value == "") hide_x();
+  }
+
+  function on_focus()
+  {
+    input_elem.style.backgroundColor = "rgba(255,255,255,0.6)";
+    hide_google();
+  }
+
+  function on_blur()
+  {
+    input_elem.style.backgroundColor = "rgba(255,255,255,0.4)";
+    if (input_elem.value == "")
+    {
+      show_google();
+      hide_x();
+    }
+  }
+
+  function erase()
+  {
+    input_elem.value = "";
+    hide_x();
+    show_google();
+  }
+</script>

@@ -4,13 +4,27 @@ Architecture: iphoneos-arm
 Maintainer: littleferris <goobertime@gmail.com>
 Filename: ./debs/com.littleferris.blackpixelsearch_1.0.2_iphoneos-arm.deb
 Size: 118218
-MD5sum: cd7262540f589913ebbc07cf80bf8ad8
-SHA1: 8a8562e6bc592a6abcbd5518c82fc60bda3d3343
-SHA256: e70a9547e05f4957700581bf495d69910285842c07c10741892049994e637972
+MD5sum: 9936864818efda7e7fb1c165d9247695
+SHA1: da4bbd61726f58d60d9544a8555f94a341109e46
+SHA256: db9429c7bf76396e4e959edfb05dd6215ad5f6c9a10a2c4128f6aac56742b07e
 Section: Widgets(xenHTML)
 Description: Search widget for xenHTML. Requires xenHTML and InfoStats2
 Author: littleferris (littleferris) <goobertime@gmail.com>
 Name: BlackPixelSearch
+
+Package: com.littleferris.googlesearch
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: littleferris <goobertime@gmail.com>
+Filename: ./debs/com.littleferris.googlesearch_1.0_iphoneos-arm.deb
+Size: 20192
+MD5sum: 013d92efecf626463ff9d3deae1ff884
+SHA1: f06826d6fe912d39fb4f235040e1c1e066f6f0c0
+SHA256: 1c1ad14cf0526237e5f8a658e84d152e7a116887c05b60ce6511a9223e7672ae
+Section: Widgets(xenHTML)
+Description: Search widget for xenHTML.
+Author: littleferris (littleferris) <goobertime@gmail.com>
+Name: GoogleSearch
 
 Package: com.littleferris.pixelsearch
 Version: 1.0.1
@@ -18,9 +32,9 @@ Architecture: iphoneos-arm
 Maintainer: littleferris <goobertime@gmail.com>
 Filename: ./debs/com.littleferris.pixelsearch_1.0.1_iphoneos-arm.deb
 Size: 117810
-MD5sum: fde9a5e7905495df5f097a7f7253ac48
-SHA1: 0567e3eb6df932073cd51726cabe8a950850ef06
-SHA256: 2cb688ec450a14b5d834d14e4efe4b5aaa9e3f9e9e75e2fd41bd03bde04d6ed1
+MD5sum: 62f9ace0bc11ff59cc522bd83959802b
+SHA1: 52fc6d1e67b3a0b558def489197b40800d662c26
+SHA256: b6c596349c0233f38f340d362453ddce87349ab764ebecb61741bf82dd1aa6bd
 Section: Widgets(xenHTML)
 Description: Search widget for xenHTML. Requires xenHTML and InfoStats2
 Author: littleferris (littleferris) <goobertime@gmail.com>
