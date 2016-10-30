@@ -91,7 +91,7 @@ background-position-y: 10px;
 -webkit-user-select:none;
 }
 
-#search{
+#newSearch{
 -webkit-transition: width 0.3s ease-in-out;
 transition: width 0.3s ease-in-out;
 visibility:hidden;
@@ -101,7 +101,7 @@ border: none;
 
 }
 
-#search.active{
+#newSearch.active{
 visibility:visible;
 -webkit-transition: width 0.3s ease-in-out;
 transition: width 0.3s ease-in-out;
