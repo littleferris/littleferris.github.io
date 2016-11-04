@@ -1,7 +1,7 @@
 Package: com.littleferris.tealpixelsearch
 Name: TealPixelSearch
 Depends:
-Version: 1.0.2
+Version: 1.0.3
 Architecture: iphoneos-arm
 Description: Search widget for xenHTML. Requires xenHTML and InfoStats2
 Maintainer: littleferris <goobertime@gmail.com>
