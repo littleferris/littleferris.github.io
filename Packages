@@ -4,9 +4,9 @@ Architecture: iphoneos-arm
 Maintainer: littleferris <goobertime@gmail.com>
 Filename: ./debs/com.littleferris.blackpixelsearch_1.0.2_iphoneos-arm.deb
 Size: 118218
-MD5sum: 4943b45c47d49e99594f2715ce5d1e36
-SHA1: 679d5ec83f7e1cb981a77c6c7823702dca3368d8
-SHA256: d1cbe22148eb39e061c26b723bf5b0224abc1f4512965bef9ea629d901383d47
+MD5sum: e4961dd9d18fbb0b7bf460e3cbd48432
+SHA1: 0b97124188d2425b244124b9d0fc0fb69651311c
+SHA256: 429881f8de9f19e6db46e9ff66a3bcc96d8291ec4a0eac27257db97b08f76cb0
 Section: Widgets(xenHTML)
 Description: Search widget for xenHTML. Requires xenHTML and InfoStats2
 Author: littleferris (littleferris) <goobertime@gmail.com>
@@ -17,10 +17,10 @@ Version: 1.0.1
 Architecture: iphoneos-arm
 Maintainer: littleferris <goobertime@gmail.com>
 Filename: ./debs/com.littleferris.googlesearch_1.0.1_iphoneos-arm.deb
-Size: 20194
-MD5sum: 62ed28bc6bfa08152ee1544b4484c2a2
-SHA1: 81b79933f5c9398b2d0cf518fee5f4cfdbaaf918
-SHA256: a480cb79e8bd0ea9977bebd2695755bfd637d05df8f9e3cf003e69f952b9d9fc
+Size: 20200
+MD5sum: 6262fddff124fe6960170c1f31397e14
+SHA1: 63bf1bde6c943ba10d0caa3951cf16d58fe01aff
+SHA256: 17fa0960a6f34b6133cc63f985a645daeb807e72e9290f21b59ecc084918722e
 Section: Widgets(xenHTML)
 Description: Search widget for xenHTML.
 Author: littleferris (littleferris) <goobertime@gmail.com>
@@ -32,11 +32,25 @@ Architecture: iphoneos-arm
 Maintainer: littleferris <goobertime@gmail.com>
 Filename: ./debs/com.littleferris.pixelsearch_1.0.1_iphoneos-arm.deb
 Size: 117810
-MD5sum: 167193280cfbc1cddf9cd04c2bec3a1f
-SHA1: 3793623626338647992aa95ae5d5f22ebc19a00c
-SHA256: 1b30c1b3d277b0d16a35a1720e34d4e9d093bcd0394e34cc6526e3c72f32c1b1
+MD5sum: 95189e707500a54fe9905a09ed4b4ea6
+SHA1: dbdedc49bef91e58beb2351778c9318e15de32d6
+SHA256: 89d176a2f269b5f2a8f51a4860cf4d1d7c2acbcb78bb99ccae0088e73c664fa6
 Section: Widgets(xenHTML)
 Description: Search widget for xenHTML. Requires xenHTML and InfoStats2
 Author: littleferris (littleferris) <goobertime@gmail.com>
 Name: PixelSearch
+
+Package: com.littleferris.tealpixelsearch
+Version: 1.0.1
+Architecture: iphoneos-arm
+Maintainer: littleferris <goobertime@gmail.com>
+Filename: ./debs/com.littleferris.tealpixelsearch_1.0.1_iphoneos-arm.deb
+Size: 117782
+MD5sum: 9b255993e891724abc7234e7375f5008
+SHA1: 08482fa6cdfbf6cb92ef4b8c9193e8aeb5a76a0c
+SHA256: 62cde12b0d24f2884da5dbe26c9bc74be83c5ccd989057b102648cfb4cb1ec12
+Section: Widgets(xenHTML)
+Description: Search widget for xenHTML. Requires xenHTML and InfoStats2
+Author: littleferris (littleferris) <goobertime@gmail.com>
+Name: TealPixelSearch
 
