@@ -1,0 +1,9 @@
+Package: com.littleferris.squaresearch
+Name: SquareSearch
+Depends:
+Version: 1.0
+Architecture: iphoneos-arm
+Description: Search widget for xenHTML. Requires xenHTML and InfoStats2
+Maintainer: littleferris <goobertime@gmail.com>
+Author: littleferris (littleferris) <goobertime@gmail.com>
+Section: Widgets(xenHTML)
